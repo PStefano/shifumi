@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Chifoumy JS</title>
+</head>
+
+<body>
+	<header>
+		<h1>Shifumi JS</h1>
+		<p>Challenge the computer !</p>
+	</header>
+	<main>
+		<section id="userChoice">
+			<ul>
+				<li>
+					Make you choice :
+				</li>
+				<li>
+					<img id="stone" src="svg/stone.svg" alt="Choix Pierre" width="50" height="50">
+				</li>
+				<li>
+					<img id="paper" src="svg/paper.svg" alt="Choix Feuille" width="50" height="50">
+				</li>
+				<li>
+					<img id="scissors" src="svg/scissors.svg" alt="Choix Ciseaux" width="50" height="50">
+				</li>
+			</ul>
+		</section>
+
+		<section id="playGround">
+			<!-- AFFICHAGE DU RESULTAT DE LA PARTIE -->
+			<div id="resultGame">TEST</div>
+
+			<!-- AFFICHAGE CHOIX UTILISATEUR -->
+			<article id="userGame">
+				<img id="userPierre" src="svg/stone.svg" alt="User Pierre" width="250" height="250">
+				<img id="userFeuille" src="svg/paper.svg" alt="User Feuille" width="250" height="250">
+				<img id="userCiseaux" src="svg/scissors.svg" alt="User Ciseaux" width="250" height="250">
+			</article>
+
+			<!-- AFFICHAGE DU CHOIX CPU -->
+			<article id="computerGame">
+				<img id="compPierre" src="svg/stone.svg" alt="stone" width="250" height="250">
+				<img id="compFeuille" src="svg/paper.svg" alt="paper" width="250" height="250">
+				<img id="compCiseaux" src="svg/scissors.svg" alt="scissors" width="250" height="250">
+			</article>
+
+			<aside>
+				<p id="playGame">Play</p>
+				<p id="playAgain">Reset</p>
+			</aside>
+
+		</section>
+
+	</main>
+
+
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
